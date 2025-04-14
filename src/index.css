@@ -31,3 +31,13 @@ code {
   border-collapse: collapse;
   padding: 8px;
 }
+
+.mind-map-container {
+  height: 45vh;
+  width: 100%
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+}
