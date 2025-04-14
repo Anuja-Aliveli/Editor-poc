@@ -1,24 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import sampleContent from './sampleContent.json'; // assuming your JSON file is named this
+import { MantineProvider } from '@mantine/core';
+
+import Editor from './Editor'; // Adjust the path if the file is in a different folder
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <MantineProvider withGlobalStyles withNormalizeCSS>
+      <div style={{ padding: '2rem' }}>
+        <Editor />
+      </div>
+    </MantineProvider>
   );
 }
 

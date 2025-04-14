@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.ProseMirror table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.ProseMirror th,
+.ProseMirror td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+/* styles.css */
+.rich-preview table,
+.rich-preview th,
+.rich-preview td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 8px;
+}

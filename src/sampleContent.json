@@ -1,0 +1,134 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "heading",
+      "attrs": { "level": 1 },
+      "content": [{ "type": "text", "text": "Indian Parliament Overview" }]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "India has a bicameral parliament consisting of the Lok Sabha and the Rajya Sabha."
+        }
+      ]
+    },
+    {
+      "type": "bulletList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [{ "type": "text", "text": "Lok Sabha" }]
+        },
+        {
+          "type": "listItem",
+          "content": [{ "type": "text", "text": "Rajya Sabha" }]
+        }
+      ]
+    },
+    {
+      "type": "orderedList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [{ "type": "text", "text": "First point" }]
+        },
+        {
+          "type": "listItem",
+          "content": [{ "type": "text", "text": "Second point" }]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "This is **bold**, *italic*, _underlined_, and ~highlighted~."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "content": [
+        {
+          "type": "tableRow",
+          "content": [
+            {
+              "type": "tableHeader",
+              "content": [{ "type": "text", "text": "House" }]
+            },
+            {
+              "type": "tableHeader",
+              "content": [{ "type": "text", "text": "Total Members" }]
+            },
+            {
+              "type": "tableHeader",
+              "content": [{ "type": "text", "text": "Term (Years)" }]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "content": [
+            {
+              "type": "tableCell",
+              "content": [{ "type": "text", "text": "Lok Sabha" }]
+            },
+            {
+              "type": "tableCell",
+              "content": [{ "type": "text", "text": "545" }]
+            },
+            {
+              "type": "tableCell",
+              "content": [{ "type": "text", "text": "5" }]
+            }
+          ]
+        },
+        {
+          "type": "tableRow",
+          "content": [
+            {
+              "type": "tableCell",
+              "content": [{ "type": "text", "text": "Rajya Sabha" }]
+            },
+            {
+              "type": "tableCell",
+              "content": [{ "type": "text", "text": "245" }]
+            },
+            {
+              "type": "tableCell",
+              "content": [{ "type": "text", "text": "6" }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "chart",
+      "attrs": {
+        "chartType": "bar",
+        "data": {
+          "labels": ["Lok Sabha", "Rajya Sabha"],
+          "datasets": [
+            {
+              "label": "Members",
+              "data": [545, 245],
+              "backgroundColor": ["#4caf50", "#2196f3"]
+            }
+          ]
+        },
+        "options": {
+          "responsive": true,
+          "plugins": {
+            "legend": {
+              "position": "top"
+            }
+          }
+        }
+      }
+    }
+  ]
+}
